@@ -1,0 +1,353 @@
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #1c2331 !important;
+  }
+}
+
+.carousel, .carousel .carousel-inner, .carousel .carousel-inner .active, .carousel .carousel-inner .carousel-item, .view, body, html {
+  height: 99%;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.page-footer,
+.top-nav-collapse {
+  background-color: #1c2331;
+}
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1c2331;
+  }
+}
+.fab{
+    color: white;
+    padding-left:10px;
+  }
+  /* navbar */
+ .fa-bars{
+     filter: invert(100%);
+ }
+  .navbar {
+    background: rgba(0, 0, 0, 0.8);
+}
+.nav-item{
+    color: white;
+    padding-right: 10px;
+    font-weight: 400px;
+    font-size: 17px;
+}
+  #logo{
+    width: 300px;
+    /* padding-top: 6px; */
+  }
+  .dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+  @media only screen and (max-width: 608px){
+  #logo {
+      width: 325px;
+      padding-left: 62px;
+  }
+  }
+  @media only screen and (max-width: 383px){
+#logo {
+    width: 320px;
+    padding-right: 48px;
+    padding-left: 22px;
+}
+  }
+  /* @media only screen and (max-width:478px) {
+    #logo{
+      width: 240px;
+    }
+  }
+  @media only screen and (max-width:326px) {
+    #logo{
+      width: 891%;
+    }
+  }
+  @media only screen and (max-width:292px) {
+    #logo{
+      width: 192px;
+    }
+  }
+  @media only screen and (max-width:254px) {
+    #logo{
+      width: 175px;
+    }
+  } */  
+  @media only screen and (max-width: 992px) {
+    .navbar-toggler{
+      margin-left: 360px;
+      font-size: 35px;
+
+    }
+  }
+  @media only screen and (max-width:768px) {
+    .navbar-toggler{
+      margin-left: 195px;
+    }
+  }
+  @media only screen and (max-width:590px) {
+    .navbar-toggler{
+      margin-left: 140px;
+    }
+  }
+  @media only screen and (max-width:528px) {
+    .navbar-toggler{
+      margin-left: 90px;
+    }
+}
+ 
+   @media only screen and (max-width:484px) {
+    .navbar-toggler{
+      margin-left: 50px;
+    }
+  } 
+   @media only screen and (max-width:430px) {
+    .navbar-toggler{
+      margin-left: 0px;
+    }
+  } 
+   @media only screen and (max-width:383px) {
+    .navbar-toggler{
+      margin-left:-53px;
+    }
+  } 
+  @media only screen and (max-width: 319px){
+.navbar-toggler {
+    margin-left: -64px;
+}
+  }
+  @media only screen and (max-width: 309px){
+.navbar-toggler {
+    margin-left: 139px;
+}
+  }
+
+  @media (max-width: 992px){
+.navbar .nav-item .nav-link {
+    padding-right: 6px;
+    padding-left: 18px;
+}
+  }
+  @media (max-width:609px){
+.navbar .nav-item .nav-link {
+    padding-right: 6px;
+    padding-left: 65px;
+}
+  }
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    /* padding: .5rem 0; */
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #ccc;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius:none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+@media only screen and (max-width:800px) {
+  .dropdown-menu {
+    left: 40px;
+  }
+}
+.navbar .dropdown-menu a {
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.dropdown-item:hover {
+  color: #16181b;
+  text-decoration: none;
+  background-color: #fdc82f;
+}
+.dropdown-divider {
+  height: 0;
+  margin: -8.9px;
+  overflow: hidden;
+  border-top: 1px solid #e9ecef;
+  width: 157px;
+  /* padding-left: 51px; */
+  margin-left: 0px;
+}
+@media only screen and (max-width:992px) {
+.carousel-inner{
+  margin-top: 135px;
+  height: 200px;
+}
+}
+@media only screen and (max-width:768px) {
+.carousel-inner{
+  margin-top: 150px;
+}
+}
+@media (max-width: 850px) and (min-width: 800px){
+.navbar:not(.top-nav-collapse) {
+    background: #000000 !important;
+}
+}
+@media only screen and (max-width: 477px){
+.carousel-inner {
+    margin-top: 162px;
+}
+}
+@media only screen and (max-width: 310px){
+.carousel-inner {
+    margin-top: 205px;
+}
+}
+@media only screen and (max-width:992px){
+  .view, body, html {
+    height: 94%;
+}
+}
+@media only screen and (max-width: 800px){
+  .view, body, html {
+    height: 94%;
+}
+}
+@media only screen and (max-width:756px){
+  .view, body, html {
+    height:85%;
+}
+}
+@media only screen and (max-width:558px){
+  .view, body, html {
+    height:80%;
+}
+}
+@media only screen and (max-width:558px){
+  .view, body, html {
+    height:75%;
+}
+}
+@media only screen and (max-width:490px){
+  .view, body, html {
+    height:69%;
+}
+}
+  /* flexfollow */
+  #flexfollow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  /* flexnavstart */
+  #navli{
+    list-style-type: none;
+    
+  }
+  #navli a{
+    color: white;
+    font-size: 85%;
+    font-weight: 400;
+  }
+  #flexul{
+    display: flex;
+    flex-wrap: wrap;
+   flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 0px;
+  }
+  @media only screen and (max-width: 518px) {
+    li a {
+      padding-right: 6px;
+  }
+  }
+  .z-depth-0 {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    height: 45px;
+    width: 50px;
+}
+
+#navbarDropdownMenuLink-555:hover{
+    color: #FDC82F;
+}
+.nav-link{
+    color: white;
+  
+}
+.nav-link:hover{
+    color: #FDC82F;
+}
+#tag{
+  color: #FDC82F;
+  font-weight: 500;
+  font-family: 'Varela Round', sans-serif;
+}
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 65px;
+  left: 0;
+  z-index: 15;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  /* padding-left: 0; */
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+}
+.d-none {
+  display: block!important;
+}
+
+  /* flexnavend */
+  /* sec1 */
+#grid1{
+
+  height: 250px;
+  border-left: 2px solid black;
+}
+#grid2{
+
+  height: 250px;
+  border-left: 2px solid black;
+}
+#grid3{
+ 
+  height: 250px;
+  border-left: 2px solid black;
+}
+#grid4{
+ 
+  height: 250px;
+  border-left: 2px solid black;
+}
+#grid5{
+
+  height: 250px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+#gridimg {
+  width: 100%;
+  display: block;
+  height: -webkit-fill-available;
+}
+#cardcaption{
+  color: black;
+  font-size:30px ;
+  font-family: 'Baloo Bhaina 2', cursive;
+  text-align: center;
+}
+.container-fluid{
+  padding: 0px;
+}
+ /* sec2 */
